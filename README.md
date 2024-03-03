@@ -1,7 +1,7 @@
 # ImageResizer WinForms Application 📸
 
 ## Overview 🌟
-The ImageResizer is a custom WinForms application that downscales images. It allows users to select an image, specify a downscaling factor (percentage of the original size), and generates a new image.
+The ImageResizer is a custom WinForms application designed for image downscaling. It enables users to select an image, specify a downscaling factor as a percentage of the original size, choose from two available downscaling algorithms, and effortlessly generate a new, downscaled image.
 
 ## Features 🚀
 - **Select Image**: Choose an image file. 📁
@@ -17,3 +17,12 @@ The ImageResizer is a custom WinForms application that downscales images. It all
 
 ## Screenshots 📸
 Here's a look at our application in action:
+
+<img src="application-screenshots/screen_1.png" width="50%" height="auto"/>
+
+Screenshots of two different scenarios with test images:
+
+<img src="application-screenshots/test-screen-3.png" width="50%" height="auto"/>
+
+<img src="application-screenshots/test-screen-2.png" width="50%" height="auto"/>
+
