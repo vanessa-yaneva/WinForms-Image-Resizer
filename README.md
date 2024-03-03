@@ -22,7 +22,7 @@ Here's a look at our application in action:
 
 Screenshots of two different scenarios with test images:
 
-<img src="application-screenshots/test-screen-3.png" width="50%" height="auto"/>
+<img src="application-screenshots/test-screen-3.png" width="70%" height="auto"/>
 
-<img src="application-screenshots/test-screen-2.png" width="50%" height="auto"/>
+<img src="application-screenshots/test-screen-2.png" width="70%" height="auto"/>
 
