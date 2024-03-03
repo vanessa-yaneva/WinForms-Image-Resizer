@@ -21,6 +21,7 @@ Here's a look at the application in action:
 <img src="application-screenshots/screen_1.png" width="50%" height="auto"/>
 
 Screenshots of two different scenarios with test images:
+The original image provided for experimentation is with dimensions of 25,000 x 15,000 pixels. Utilizing a downscaling factor set at 50% of the original size results in the image being resized to 12,500 x 7,500 pixels-->
 
 <img src="application-screenshots/test-screen-3.png" width="70%" height="auto"/>
 
