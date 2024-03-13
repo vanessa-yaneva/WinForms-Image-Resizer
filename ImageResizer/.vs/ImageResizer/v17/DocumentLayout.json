@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\UserPC\\Desktop\\WinForms-Image-Resizer\\ImageResizer\\",
+  "WorkspaceRootPath": "C:\\Users\\UserPC\\Desktop\\WinForm-project\\WinForms-Image-Resizer\\ImageResizer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C40DC7C9-9CB9-4C7C-AE6D-20887D23637E}|ImageResizer\\ImageResizer.csproj|C:\\Users\\UserPC\\Desktop\\WinForms-Image-Resizer\\ImageResizer\\imageresizer\\imageresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C40DC7C9-9CB9-4C7C-AE6D-20887D23637E}|ImageResizer\\ImageResizer.csproj|solutionrelative:imageresizer\\imageresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C40DC7C9-9CB9-4C7C-AE6D-20887D23637E}|ImageResizer\\ImageResizer.csproj|c:\\users\\userpc\\desktop\\winforms-image-resizer\\imageresizer\\imageresizer\\imageresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C40DC7C9-9CB9-4C7C-AE6D-20887D23637E}|ImageResizer\\ImageResizer.csproj|solutionrelative:imageresizer\\imageresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C40DC7C9-9CB9-4C7C-AE6D-20887D23637E}|ImageResizer\\ImageResizer.csproj|C:\\Users\\UserPC\\Desktop\\WinForms-Image-Resizer\\ImageResizer\\imageresizer\\resizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C40DC7C9-9CB9-4C7C-AE6D-20887D23637E}|ImageResizer\\ImageResizer.csproj|C:\\Users\\UserPC\\Desktop\\WinForm-project\\WinForms-Image-Resizer\\ImageResizer\\imageresizer\\resizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C40DC7C9-9CB9-4C7C-AE6D-20887D23637E}|ImageResizer\\ImageResizer.csproj|solutionrelative:imageresizer\\resizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C40DC7C9-9CB9-4C7C-AE6D-20887D23637E}|ImageResizer\\ImageResizer.csproj|C:\\Users\\UserPC\\Desktop\\WinForms-Image-Resizer\\ImageResizer\\imageresizer\\imageresizer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C40DC7C9-9CB9-4C7C-AE6D-20887D23637E}|ImageResizer\\ImageResizer.csproj|C:\\Users\\UserPC\\Desktop\\WinForm-project\\WinForms-Image-Resizer\\ImageResizer\\imageresizer\\imageresizer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C40DC7C9-9CB9-4C7C-AE6D-20887D23637E}|ImageResizer\\ImageResizer.csproj|solutionrelative:imageresizer\\imageresizer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C40DC7C9-9CB9-4C7C-AE6D-20887D23637E}|ImageResizer\\ImageResizer.csproj|c:\\users\\userpc\\desktop\\winform-project\\winforms-image-resizer\\imageresizer\\imageresizer\\imageresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C40DC7C9-9CB9-4C7C-AE6D-20887D23637E}|ImageResizer\\ImageResizer.csproj|solutionrelative:imageresizer\\imageresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C40DC7C9-9CB9-4C7C-AE6D-20887D23637E}|ImageResizer\\ImageResizer.csproj|C:\\Users\\UserPC\\Desktop\\WinForm-project\\WinForms-Image-Resizer\\ImageResizer\\imageresizer\\imageresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C40DC7C9-9CB9-4C7C-AE6D-20887D23637E}|ImageResizer\\ImageResizer.csproj|solutionrelative:imageresizer\\imageresizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,54 +26,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ImageResizer.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\UserPC\\Desktop\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\ImageResizer.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\UserPC\\Desktop\\WinForm-project\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\ImageResizer.Designer.cs",
               "RelativeDocumentMoniker": "ImageResizer\\ImageResizer.Designer.cs",
-              "ToolTip": "C:\\Users\\UserPC\\Desktop\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\ImageResizer.Designer.cs",
+              "ToolTip": "C:\\Users\\UserPC\\Desktop\\WinForm-project\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\ImageResizer.Designer.cs",
               "RelativeToolTip": "ImageResizer\\ImageResizer.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJAAAAAmAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T19:19:40.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Resizer.cs",
-              "DocumentMoniker": "C:\\Users\\UserPC\\Desktop\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\Resizer.cs",
+              "DocumentMoniker": "C:\\Users\\UserPC\\Desktop\\WinForm-project\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\Resizer.cs",
               "RelativeDocumentMoniker": "ImageResizer\\Resizer.cs",
-              "ToolTip": "C:\\Users\\UserPC\\Desktop\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\Resizer.cs",
+              "ToolTip": "C:\\Users\\UserPC\\Desktop\\WinForm-project\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\Resizer.cs",
               "RelativeToolTip": "ImageResizer\\Resizer.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAArwIoAAAAQAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAF8AAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T19:08:20.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ImageResizer.cs",
-              "DocumentMoniker": "C:\\Users\\UserPC\\Desktop\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\ImageResizer.cs",
+              "DocumentMoniker": "C:\\Users\\UserPC\\Desktop\\WinForm-project\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\ImageResizer.cs",
               "RelativeDocumentMoniker": "ImageResizer\\ImageResizer.cs",
-              "ToolTip": "C:\\Users\\UserPC\\Desktop\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\ImageResizer.cs",
+              "ToolTip": "C:\\Users\\UserPC\\Desktop\\WinForm-project\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\ImageResizer.cs",
               "RelativeToolTip": "ImageResizer\\ImageResizer.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA8AAAA2AAAA",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAAAJgAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T17:42:58.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ImageResizer.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\UserPC\\Desktop\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\ImageResizer.cs",
+              "DocumentMoniker": "C:\\Users\\UserPC\\Desktop\\WinForm-project\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\ImageResizer.cs",
               "RelativeDocumentMoniker": "ImageResizer\\ImageResizer.cs",
-              "ToolTip": "C:\\Users\\UserPC\\Desktop\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\ImageResizer.cs [Design]",
+              "ToolTip": "C:\\Users\\UserPC\\Desktop\\WinForm-project\\WinForms-Image-Resizer\\ImageResizer\\ImageResizer\\ImageResizer.cs [Design]",
               "RelativeToolTip": "ImageResizer\\ImageResizer.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T17:31:00.476Z",

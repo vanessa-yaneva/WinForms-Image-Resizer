@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Drawing.Imaging;
 using System.Drawing;
-using System.Threading.Tasks;
 using System.Runtime.InteropServices;
+using System.Collections.Generic;
+using System.Threading;
 
 namespace ImageResizer
 {
@@ -105,22 +106,42 @@ namespace ImageResizer
                     float widthRatio = (float)originalWidth / width;
                     float heightRatio = (float)originalHeight / height;
 
-                    Parallel.For(0, height, y =>
-                    {
-                        int resizedYOffset = y * resizedData.Stride;
-                        for (int x = 0; x < width; x++)
-                        {
-                            int originalX = Math.Min((int)(x * widthRatio), originalWidth - 1);
-                            int originalY = Math.Min((int)(y * heightRatio), originalHeight - 1);
-                            int originalOffset = (originalY * originalData.Stride) + (originalX * bytesPerPixel);
+                    int numberOfThreads = Environment.ProcessorCount;
+                    var threads = new List<Thread>(numberOfThreads);
+                    int rowsPerThread = height / numberOfThreads;
 
-                            for (int byteIndex = 0; byteIndex < bytesPerPixel; byteIndex++)
+                    for (int i = 0; i < numberOfThreads; i++)
+                    {
+                        int startRow = i * rowsPerThread;
+                        int endRow = (i == numberOfThreads - 1) ? height : startRow + rowsPerThread;
+
+                        Thread processingThread = new Thread(() =>
+                        {
+                            for (int y = startRow; y < endRow; y++)
                             {
-                                int index = resizedYOffset + (x * bytesPerPixel) + byteIndex;
-                                resizedPixels[index] = originalPixels[originalOffset + byteIndex];
+                                int resizedYOffset = y * resizedData.Stride;
+                                for (int x = 0; x < width; x++)
+                                {
+                                    int originalX = Math.Min((int)(x * widthRatio), originalWidth - 1);
+                                    int originalY = Math.Min((int)(y * heightRatio), originalHeight - 1);
+                                    int originalOffset = (originalY * originalData.Stride) + (originalX * bytesPerPixel);
+
+                                    for (int byteIndex = 0; byteIndex < bytesPerPixel; byteIndex++)
+                                    {
+                                        int index = resizedYOffset + (x * bytesPerPixel) + byteIndex;
+                                        resizedPixels[index] = originalPixels[originalOffset + byteIndex];
+                                    }
+                                }
                             }
-                        }
-                    });
+                        });
+                        threads.Add(processingThread);
+                        processingThread.Start();
+                    }
+
+                    foreach (var thread in threads)
+                    {
+                        thread.Join();
+                    }
 
                     Marshal.Copy(resizedPixels, 0, resizedData.Scan0, resizedPixels.Length);
                 }
@@ -134,9 +155,9 @@ namespace ImageResizer
 
                 return resizedImage;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                throw new Exception("Error resizing image: " + ex.Message, ex);
             }
         }
     }
